@@ -12,4 +12,4 @@ def num_translate(value: str) -> str:
 print(num_translate("one"))
 print(num_translate("eight"))
 print(num_translate("zero"))
-print(num_translate("zer"))
+print(num_translate("zer1"))

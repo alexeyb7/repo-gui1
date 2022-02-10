@@ -1,7 +1,7 @@
 
 
 def thesaurus(*args) -> dict:
-    dict_out = {}  # результирующий словарь значений
+    dict_out = {}  #  результирующий словарь значений
     for i in args:
         if dict_out.get(i[0]) is None:
             dict_out.setdefault(i[0], [i])

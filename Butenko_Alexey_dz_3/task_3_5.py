@@ -32,5 +32,5 @@ def get_jokes_adv (count, unicum) -> list:
     return list_out
 
 
-#print(get_jokes_adv(count = 6, unicum = True))
+# print(get_jokes_adv(count = 6, unicum = True))
 print(get_jokes_adv(count = 4, unicum = True))
