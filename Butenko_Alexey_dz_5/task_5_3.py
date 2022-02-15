@@ -9,7 +9,7 @@ def check_gen(tutors: list, klasses: list):
 
 generator = check_gen(tutors, klasses)
 print (type(generator))
-# добавьте здесь доказательство, что создали именно генератор
+# добавьте здесь доказательство, что создали именно генератор/
 for _ in range(len(tutors)):
     print(next(generator))
 # next(generator)  # если раскомментировать, то должно падать в traceback по StopIteration
