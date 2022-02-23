@@ -14,3 +14,4 @@ with open('nginx_logs.txt', 'r', encoding='utf-8') as fr:
         list_out.append(get_parse_attrs(line))
 
 pprint(list_out)
+
