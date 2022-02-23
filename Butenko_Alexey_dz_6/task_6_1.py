@@ -15,3 +15,5 @@ with open('nginx_logs.txt', 'r', encoding='utf-8') as fr:
 
 pprint(list_out)
 
+
+

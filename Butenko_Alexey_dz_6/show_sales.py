@@ -1,3 +1,5 @@
+
+
 def main(start: int, finish: int):
     file_name = 'bakery.csv'
     with open(file_name, 'r', encoding='utf-8') as f1:

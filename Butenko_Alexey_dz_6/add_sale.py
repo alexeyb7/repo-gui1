@@ -1,4 +1,3 @@
-
 def main(argv):
     program, price = argv
     line_len = 10
